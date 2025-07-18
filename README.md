@@ -18,7 +18,7 @@ Las instrucciones de instalación y configuración del entorno de desarrollo se 
 
 1.  Clonar el repositorio:
     ```bash
-    git clone 
+    git clone https://github.com/VaLa-Laiton/sistema-gestion-contratos.git
     ```
 2.  Navegar a la carpeta del proyecto:
     ```bash
