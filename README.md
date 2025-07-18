@@ -1,43 +1,31 @@
-# Estructura del proyecto
+# Sistema de Gestión de Contratos
 
-/sistema-gestion-contratos/
-│
-├── app/
-│   ├── __init__.py
-│   ├── main.py             # <- Orquestador que une los módulos
-│   ├── database.py         # <- Lógica de BD compartida
-│   ├── dependencies.py     # <- Dependencias compartidas (ej. get_current_user)
-│   │
-│   ├── core/
-│   │   ├── __init__.py
-│   │   └── config.py       # <- Configuración global compartida
-│   │
-│   └── modules/            # <- CARPETA PRINCIPAL PARA MÓDULOS
-│       ├── __init__.py
-│       │
-│       ├── auth/
-│       │   ├── __init__.py
-│       │   ├── router.py   # Endpoints (/login)
-│       │   ├── crud.py     # Lógica de autenticación (opera sobre el modelo de usuario)
-│       │   └── schema.py   # Schemas de Token y TokenData
-│       │
-│       ├── users/
-│       │   ├── __init__.py
-│       │   ├── model.py    # Modelo SQLAlchemy para la tabla 'users'
-│       │   ├── schema.py   # Schemas Pydantic para UserCreate, User, etc.
-│       │   ├── crud.py     # Funciones CRUD para usuarios
-│       │   └── router.py   # Endpoints (/users, /users/{id}, etc.)
-│       │
-│       ├── clients/
-│       │   ├── __init__.py
-│       │   ├── model.py    # Modelo SQLAlchemy para la tabla 'clients'
-│       │   ├── schema.py   # Schemas para ClientCreate, etc.
-│       │   ├── crud.py     # Funciones CRUD para clientes
-│       │   └── router.py   # Endpoints (/clients)
-│       │
-│       └── contracts/
-│           └── # ... (misma estructura: model.py, schema.py, crud.py, router.py)
-│
-├── Dockerfile
-├── docker-compose.yml
-└── ... (otros archivos raíz como .env, requirements.txt)
+Este es un proyecto para desarrollar un sistema web que permita la gestión, seguimiento y administración de contratos de manera eficiente.
+
+## Características
+
+Actualmente, el proyecto se encuentra en su fase inicial de desarrollo. Las características planeadas incluyen:
+
+* [ ] Creación y almacenamiento de contratos digitales.
+* [ ] Seguimiento de fechas clave (inicio, fin, renovaciones).
+* [ ] Notificaciones y alertas automáticas.
+* [ ] Repositorio de documentos asociados a cada contrato.
+* [ ] Gestión de usuarios y permisos.
+
+## Instalación
+
+Las instrucciones de instalación y configuración del entorno de desarrollo se añadirán próximamente.
+
+1.  Clonar el repositorio:
+    ```bash
+    git clone 
+    ```
+2.  Navegar a la carpeta del proyecto:
+    ```bash
+    cd sistema-gestion-contratos
+    ```
+3.  *(Pasos futuros aquí...)*
+
+## Uso
+
+Una vez completada la configuración, se detallarán aquí los pasos para ejecutar la aplicación y empezar a utilizarla.
