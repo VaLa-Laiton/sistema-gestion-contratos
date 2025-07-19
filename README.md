@@ -29,3 +29,5 @@ Las instrucciones de instalación y configuración del entorno de desarrollo se 
 ## Uso
 
 Una vez completada la configuración, se detallarán aquí los pasos para ejecutar la aplicación y empezar a utilizarla.
+
+### Próximamente mucho mas... 🥳
